@@ -2,26 +2,25 @@ body {
   background-image: url("http://jorgzenn.com/wp-content/uploads/2017/08/Light-Pink-Backgrounds.jpg");
   background-size: cover;
   text-align: center;
+  font-family: cursive;
 }
 
 .topnav {
   overflow: hidden;
-  /*background-color:#696969;*/
-
 }
 
 .topnav a:hover {
   background-color: white;
-  /*color: white;*/
+  color: purple;
 }
 
 .topnav a {
-  float: right;
+ float: left;
  color: black;
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
- font-size: 20px;
+ font-size: 30px;
 }
 
 h1 {
@@ -40,11 +39,19 @@ h1 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 50px;
+  text-shadow: 3px 3px #79ff4d;
+
 }
 
+ h4 {
+   font-size: 40px;
+   text-shadow:2px 2px 2px rgb(204, 0, 102);
+ }
+
 p {
-  font-size: 20px;
+  font-size: 30px;
+  font-style: italic;
 }
 
 .column {
@@ -62,6 +69,13 @@ p {
   clear: both;
 }
 
+#contact {
+  font-size: 30px;
+}
 @media screen and (max-width: 600px) {
 
+}
+
+footer {
+  font-style: italic;
 }
