@@ -54,10 +54,10 @@ p {
   font-style: italic;
 }
 
-.column {
+/*.column {
   float: left;
   width: 33.33%;
-  height: 150px; /* Should be removed. Only for demonstration */
+  height: 150px;
   display: grid;
   grid-template-rows: 100px;
 }
@@ -67,7 +67,7 @@ p {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 #contact {
   font-size: 30px;
